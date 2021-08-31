@@ -1,0 +1,25 @@
+{
+  "name": "api-node-typescript",
+  "version": "1.0.0",
+  "description": "Api desenvolvida para exemplificar o uso com Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -w -diagnostics",
+    "start": "node ./dist/index.js",
+    "startw": "nodemon ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.2",
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.6.0",
+    "typescript": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/mongoose": "^5.11.97"
+  }
+}
