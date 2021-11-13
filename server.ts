@@ -31,9 +31,3 @@ class Server {
 }
 
 export default new Server()
-
-//TODO: Criar o Repositorio no GIT
-
-//TODO: Terminar o README, descrição e objetivo
-
-//TODO: Fazer um review
